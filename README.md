@@ -1,2 +1,2 @@
 # Simon-Game
-Simon Game made with Javascript 
+Simon Game made with JavaScript 

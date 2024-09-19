@@ -14,7 +14,7 @@ $(document).keydown(function() {
     }
 });
 
-$(document).ontouchstart(function() {
+$(body).ontouchstart(function() {
     if (!started) {
         $("#level-title").text("Level " + level);
         newSequence();

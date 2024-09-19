@@ -7,7 +7,7 @@ var started = false;
 var level = 0;
 
 
-$(body).ontouchstart(function() {
+$(document).click(function() {
     if (!started) {
         $("#level-title").text("Level " + level);
         newSequence();

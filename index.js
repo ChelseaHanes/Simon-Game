@@ -6,13 +6,6 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keydown(function() {
-    if (!started) {
-        $("#level-title").text("Level " + level);
-        newSequence();
-        started = true;
-    }
-});
 
 $(body).ontouchstart(function() {
     if (!started) {
